@@ -30,7 +30,7 @@ int main() {
                 {
                     case 1:
                         printf("--------------- \n");                    
-                        printf("Aqui será exibido os filmes da prime video, Mirian!! \n");
+                        printf("Aqui será exibido os filmes da prime video \n");
                         printf("--------------- \n");                        
                         break;
                     case 2:
@@ -58,7 +58,7 @@ int main() {
                 {
                     case 1:
                         printf("--------------- \n");                    
-                        printf("Aqui será exibido os filmes da netflix, Mirian!! \n");
+                        printf("Aqui será exibido os filmes da netflix!! \n");
                         printf("--------------- \n");                        
                         break;
                     case 2:
@@ -86,7 +86,7 @@ int main() {
                 {
                     case 1:
                         printf("--------------- \n");                    
-                        printf("Aqui será exibido os filmes da HBO MAX, Mirian!! \n");
+                        printf("Aqui será exibido os filmes da HBO MAX!! \n");
                         printf("--------------- \n");                        
                         break;
                     case 2:
@@ -110,7 +110,6 @@ int main() {
                 // é literal control c + control v no código do case 1,2,3... Só mudar o nome da fornecedora
             case 0:
                 printf("Programa encerrado! \n");
-                printf("Espero que tenha gostado do exemplo");
                 break;
             default:
                 printf("Erro! Fornedora invalida");
