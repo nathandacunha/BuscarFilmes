@@ -2,7 +2,7 @@
 
 int main() {
     // declaracao de variaveis
-    int opcao, catologo;
+    int opcao, catalogo;
 
     // programa principal
 
@@ -24,9 +24,9 @@ int main() {
                 printf("[2] - Séries \n");
                 printf("[3] - Voltar \n");
                 printf("O que você deseja assistir? \n");
-                scanf("%d", &catologo);
+                scanf("%d", &catalogo);
 
-                switch(catologo) 
+                switch(catalogo) 
                 {
                     case 1:
                         printf("--------------- \n");                    
@@ -47,14 +47,15 @@ int main() {
                         printf("--------------- \n");
                         break;
                 }
+                break;
             case 2: 
                 printf("Bem vindo(a) ao catálogo da Netflix! \n");
                 printf("[1] - Filmes \n");
                 printf("[2] - Séries \n");
                 printf("[3] - Voltar \n");
                 printf("O que você deseja assistir? \n");
-                scanf("%d", &catologo);
-                switch(catologo) 
+                scanf("%d", &catalogo);
+                switch(catalogo) 
                 {
                     case 1:
                         printf("--------------- \n");                    
@@ -75,14 +76,15 @@ int main() {
                         printf("--------------- \n");
                         break;
                 }
+                break;
             case 3: 
                 printf("Bem vindo(a) ao catálogo da HBO MAX! \n");
                 printf("[1] - Filmes \n");
                 printf("[2] - Séries \n");
                 printf("[3] - Voltar \n");
                 printf("O que você deseja assistir? \n");
-                scanf("%d", &catologo);
-                switch(catologo) 
+                scanf("%d", &catalogo);
+                switch(catalogo) 
                 {
                     case 1:
                         printf("--------------- \n");                    
@@ -103,14 +105,15 @@ int main() {
                         printf("--------------- \n");
                         break;
                 } 
+                break;
             case 4:
                 printf("Bem vindo(a) ao catálogo da Cartoon Network! \n");
                 printf("[1] - Filmes \n");
                 printf("[2] - Séries \n");
                 printf("[3] - Voltar \n");
                 printf("O que você deseja assistir? \n");
-                scanf("%d", &catologo);
-                switch(catologo) 
+                scanf("%d", &catalogo);
+                switch(catalogo) 
                 {
                     case 1:
                         printf("--------------- \n");                    
@@ -131,13 +134,16 @@ int main() {
                         printf("--------------- \n");
                         break;
                 }
+                break;
             case 5:
                 // é literal control c + control v no código do case 1,2,3... Só mudar o nome da fornecedora
             case 0:
-                printf("Programa encerrado! \n");
+                printf("---------------------- \n");
+                printf("  Programa encerrado! \n");
+                printf("----------------------");
                 break;
             default:
-                printf("Erro! Fornedora invalida");
+                printf("Erro! Fornedora invalida \n");
                 break;
         }
     }
