@@ -136,7 +136,34 @@ int main() {
                 }
                 break;
             case 5:
-                // é literal control c + control v no código do case 1,2,3... Só mudar o nome da fornecedora
+                printf("Bem vindo(a) ao catálogo da Disney Plus! \n");
+                printf("[1] - Filmes \n");
+                printf("[2] - Séries \n");
+                printf("[3] - Voltar \n");
+                printf("O que você deseja assistir? \n");
+                scanf("%d", &catalogo);
+                switch(catalogo) 
+                {
+                    case 1:
+                        printf("--------------- \n");                    
+                        printf("Aqui será exibido os filmes da Cartoon Network!! \n");
+                        printf("--------------- \n");                        
+                        break;
+                    case 2:
+                        printf("--------------- \n");                    
+                        printf("Aqui sera exibido as séries da Cartoon Network \n");
+                        printf("--------------- \n");                        
+                        break;
+                    case 3:
+                        printf("--------------- \n");
+                        break;
+                    default:
+                        printf("--------------- \n");                    
+                        printf("Opção invalida! Tente novamente \n");
+                        printf("--------------- \n");
+                        break;
+                }
+                break;
             case 0:
                 printf("---------------------- \n");
                 printf("  Programa encerrado! \n");
